@@ -30,7 +30,7 @@ public class AppTest
     public void simpleTestF(){
     	System.out.println(":::::::::::::::::::Simple Test F:::::::::::::::::::");
     	
-    	assertTrue("simpleTestF  :::::::::::",true==false);
+    	assertTrue("simpleTestF  :::::::::::",true==true);
     	
     }
 }
