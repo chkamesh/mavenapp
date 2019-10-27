@@ -17,4 +17,20 @@ public class AppTest
     {
         assertTrue( true );
     }
+    
+    @Test
+    public void simpleTest(){
+    	System.out.println(":::::::::::::::::::Simple Test:::::::::::::::::::");
+    	
+    	assertTrue("simpleTest  :::::::::::",true==true);
+    	
+    }
+    
+    @Test
+    public void simpleTestF(){
+    	System.out.println(":::::::::::::::::::Simple Test F:::::::::::::::::::");
+    	
+    	assertTrue("simpleTestF  :::::::::::",true==false);
+    	
+    }
 }
